@@ -17,8 +17,6 @@ public class EnviadorDeEmails {
 		String email = String.format("Parabens {}! Voce venceu o leilao {} com o lance de R${}", vencedor.getNome(), leilao.getNome(), lanceVencedor.getValor());
 
 		System.out.println(email);
-		/*System.out.println(email);*/
-
 	}
 
 }
